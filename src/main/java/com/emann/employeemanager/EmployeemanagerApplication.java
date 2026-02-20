@@ -18,7 +18,6 @@ public class EmployeemanagerApplication {
 
 	@Bean
     public CorsFilter corsFilter() {
-        // Create a CORS configuration object
         CorsConfiguration config = new CorsConfiguration();
         config.setAllowCredentials(true); // allow cookies
         config.setAllowedOrigins(Arrays.asList("http://localhost:3000")); // allow frontend URL
